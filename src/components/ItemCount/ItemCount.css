@@ -1,0 +1,13 @@
+div.Controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: whitesmoke;
+    padding-bottom: 10px;
+}
+div.Counter button {
+    background-color: rgba(245,27,209,1);
+    border-radius: 3px;
+    border: 0;
+    padding: 10px;
+}

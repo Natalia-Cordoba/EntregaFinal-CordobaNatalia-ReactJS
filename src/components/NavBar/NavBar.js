@@ -1,35 +1,24 @@
-import "bulma/css/bulma.css";
+import 'bulma/css/bulma.css';
+import './NavBar.css';
+import CartWidget from '../CartWidget/CartWidget';
+import { NavLink, Link } from 'react-router-dom';
 
-import "./NavBar.css";
-
-import CartWidget from "../CartWidget/CartWidget";
 
 const NavBar = () => {
 
     return (
-        <section className="hero is-danger">
-            <h2>Funko Pop Store</h2>
-            <nav className="menu">
-                <div className="columns">
-                    <div className="column">
-                        <button className="botonMenu button is-dark">MARVEL</button>
-                    </div>
-                    <div className="column">
-                        <button className="botonMenu button is-dark">HARRY POTTER</button>
-                    </div>
-                    <div className="column">
-                        <button className="botonMenu button is-dark">DISNEY</button>
-                    </div>
-                    <div className="column">
-                        <button className="botonMenu button is-dark">STAR WARS</button>
-                    </div>
-                    <div className="column">
-                        <button className="botonMenu button is-dark">TODOS LOS PRODUCTOS</button>
-                    </div>
-                </div>
-            </nav>
+        <nav className='NavBar' >
+            <Link to='/'>
+                <h1>Funko Pop Store</h1>
+            </Link>
+            <div className='Category'>
+                <NavLink to={`/category/marvel`} className={({ isActive}) => isActive ? 'ActiveOption' : 'Option'}>MARVEL</NavLink>
+                <NavLink to={`/category/starWars`} className={({ isActive}) => isActive ? 'ActiveOption' : 'Option'}>STAR WARS</NavLink>
+                <NavLink to={`/category/disney`} className={({ isActive}) => isActive ? 'ActiveOption' : 'Option'}>DISNEY</NavLink>
+                <NavLink to={`/category/otros`} className={({ isActive}) => isActive ? 'ActiveOption' : 'Option'}>OTROS</NavLink>
+            </div>
             <CartWidget/>
-        </section>
+        </nav>
     )
 }
 

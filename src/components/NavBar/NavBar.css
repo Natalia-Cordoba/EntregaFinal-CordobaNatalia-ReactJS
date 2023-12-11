@@ -1,15 +1,40 @@
 nav {
-    padding: 10px 20px;
+    padding: 20px;
+    height: 150px;
+    background-color: black;
+    flex-wrap: wrap;
 }
 
-h2 {
+h1 {
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: xx-large;
     font-weight: bold;
-    padding-top: 20px;
+    padding: 5px;
+    color: whitesmoke;
+    margin-bottom: 15px;
 }
 
-button {
-    width: 100%;
+h1:hover{
+    color: rgba(245,27,209,1);
+}
+
+.Category a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    color: rgba(245, 245, 245, 0.911);
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    margin-inline: 40px;
+}
+.Category a :hover {
+    /* color:rgba(255,240,101,1); */
+    /* color: rgba(85,8,88,1); */
+    color: rgba(245,27,209,1);
+}
+
+div.Category {
+    text-align: center;
 }
 

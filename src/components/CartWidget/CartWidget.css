@@ -1,6 +1,13 @@
 .carrito {
-    text-align: end;
-    margin-right: 40px;
     position: relative;
-    top: -100px;
+    top: -80px;
+    left: 95%;
+    background-color: #fff065;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.carrito img {
+    width: 30px;
 }

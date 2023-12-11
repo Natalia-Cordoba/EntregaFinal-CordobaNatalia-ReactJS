@@ -1,0 +1,42 @@
+.CardItem {
+    width: 300px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid #fff065;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+
+img.ItemImg {
+    width: 250px;
+    height: auto;
+}
+
+.ItemHeader {
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff065;
+    margin: 0;
+    padding: 5px;
+}
+
+.Info , .Option {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    padding: 5px;
+}
+
+.ItemFooter .Option {
+    background-color: rgba(245,27,209,1);
+    border-radius: 5px;
+    padding: 8px;
+}
+
+p.info {
+    align-self: center;
+}
