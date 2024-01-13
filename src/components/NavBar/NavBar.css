@@ -3,6 +3,7 @@ nav {
     height: 150px;
     background-color: black;
     flex-wrap: wrap;
+    text-wrap: wrap;
 }
 
 h1 {
@@ -28,10 +29,8 @@ h1:hover{
     padding: 10px;
     margin-inline: 40px;
 }
-.Category a :hover {
-    /* color:rgba(255,240,101,1); */
-    /* color: rgba(85,8,88,1); */
-    color: rgba(245,27,209,1);
+.Category a:hover {
+    color:rgba(255,240,101,1);
 }
 
 div.Category {

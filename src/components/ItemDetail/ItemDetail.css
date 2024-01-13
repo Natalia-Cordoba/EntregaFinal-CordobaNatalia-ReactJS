@@ -5,3 +5,11 @@ div.ItemDetailContainer {
     margin-top: 40px;
     margin-bottom: 20px; 
 }
+
+.descripcion {
+    margin: 10px 20px;
+}
+
+.CardDetail {
+    height: 700px;
+}

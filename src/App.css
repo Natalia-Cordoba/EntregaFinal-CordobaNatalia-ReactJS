@@ -1,19 +1,30 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.App {
-    background: rgb(85,8,88);
-    background: linear-gradient(93deg, rgba(85,8,88,1) 0%, rgba(245,27,209,1) 51%, rgba(255,240,101,1) 100%);
-    padding-top: 50px;
-    padding-left: 300px;
-    padding-right: 300px;
+body {  
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(93deg, rgba(85,8,88,1) 0%, rgba(245,27,209,1) 51%, rgba(255,240,101,1) 100%);
+} 
+  
+#root {
+  flex: 1;
+  min-height: 100vh;
 }
+  
+
+.App { 
+  height: 100%;
+  padding: 50px 300px 10px 300px;
+}
+
 
 div.ListGroup {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }

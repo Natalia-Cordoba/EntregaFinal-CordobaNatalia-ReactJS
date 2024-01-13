@@ -1,4 +1,10 @@
 h2 {
-    font-size: x-large;
+    color:black;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 50px;
+    text-align: center;
+    border-bottom: 1px solid black;
 }
+

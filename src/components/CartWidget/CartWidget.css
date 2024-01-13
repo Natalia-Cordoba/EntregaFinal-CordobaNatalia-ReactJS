@@ -1,13 +1,18 @@
-.carrito {
+.CartWidget {
     position: relative;
-    top: -80px;
-    left: 95%;
+    top: -90px;
+    left: 90%;
     background-color: #fff065;
     display: inline-block;
-    padding: 10px;
-    border-radius: 100%;
+    padding: 15px;
+    border-radius: 50%;
 }
 
-.carrito img {
-    width: 30px;
+.CartImg {
+    width: 40px;
+}
+
+.numeroProd {
+    color: black;
+    font-weight: bold;
 }

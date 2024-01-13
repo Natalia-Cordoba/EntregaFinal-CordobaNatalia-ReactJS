@@ -1,0 +1,24 @@
+.contenedorError {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    margin: 50px 100px;
+    padding: 50px;
+}
+
+.tituloError {
+    text-align: center;
+    color:black;
+    border-bottom: 1px solid black;
+}
+
+.ErrorImg {
+    align-self: center;
+    height: 300px;
+}
+
+.botonError {
+    align-self: center;
+    text-align: center;
+    width: 100px;
+}
