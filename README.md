@@ -7,3 +7,7 @@
 ## Disney, Star Wars, Marvel y mucho  más...
 
 Encontrá los mejores Funko's en nuestra tienda 🛒
+
+### Podés ver un recorrido por la tienda en el siguiente video
+
+
