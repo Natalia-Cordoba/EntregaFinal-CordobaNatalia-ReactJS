@@ -1,6 +1,6 @@
 # ✨ Mundo Funko Pop ✨
 
-!["assets/image/home.png"]
+![/assets/image/home.png]
 
 "Todos somos fan de algo"
 
