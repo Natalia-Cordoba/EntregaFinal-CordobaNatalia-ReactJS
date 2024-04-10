@@ -1,19 +1,15 @@
 nav {
-    padding: 20px;
-    height: 150px;
+    padding: 10px 5px;
     background-color: black;
-    flex-wrap: wrap;
-    text-wrap: wrap;
 }
 
 h1 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: xx-large;
+    font-size: medium;
     font-weight: bold;
     padding: 5px;
     color: whitesmoke;
-    margin-bottom: 15px;
 }
 
 h1:hover{
@@ -22,18 +18,34 @@ h1:hover{
 
 .Category a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: x-large;
+    font-size: x-small;
     color: rgba(245, 245, 245, 0.911);
-    font-weight: bold;
-    border-radius: 10px;
     padding: 10px;
-    margin-inline: 40px;
 }
+
 .Category a:hover {
     color:rgba(255,240,101,1);
 }
 
 div.Category {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 750px) {    
+    .NavBar {
+        width: 1200px;
+    }
+
+    h1 {
+        font-size: x-large;
+    }
+        
+    .Category a {
+        font-size: larger;
+        font-weight: bold;
+        padding: 10px;
+        margin-inline: 10px;
+    }
 }
 

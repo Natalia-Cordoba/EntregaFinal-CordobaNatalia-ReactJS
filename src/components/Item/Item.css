@@ -1,45 +1,74 @@
 .CardItem {
-    width: 350px;
-    height: 650px;
+    width: 250px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    padding: 30px 10px;
+    justify-content: space-evenly;
+    padding: 10px;
     background-color: rgb(0, 0, 0);
     border: 2px solid #fff065;
     border-radius: 10px;
-    margin: 20px;
     margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .ListGroup {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+picture.imageContainer {
+    width: 200px;
+    height: 250px;
+    overflow: hidden;
 }
 
 img.ItemImg {
-    width: 250px;
-    height: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .ItemHeader {
     margin: 0;
-    font-size: x-large;
+    font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #fff065;
 }
 
-.Info , .Option {
+.Info,
+.Option {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: whitesmoke;
 }
 
 .ItemFooter .Option {
-    background-color: rgba(245,27,209,1);
+    background-color: rgba(245, 27, 209, 1);
     border-radius: 5px;
     padding: 8px;
 }
 
 p.info {
     align-self: center;
+}
+
+@media (min-width: 750px) {
+    .CardItem {
+        width: 350px;
+        height: 580px;
+    }
+
+    .ListGroup {
+        margin-bottom: 30px;
+    }
+
+    picture.imageContainer {
+        width: 300px;
+        height: 350px;
+    }
+
+    .ItemHeader {
+        font-size: x-large;
+    }
 }

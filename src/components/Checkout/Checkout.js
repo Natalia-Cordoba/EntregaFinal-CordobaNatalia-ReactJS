@@ -76,7 +76,7 @@ const Checkout = () => {
         return (
             <div className='mensajeIdCompra'>
                 <h1 className='detalleCheckout'>Detalle compra</h1>
-                <h2 className='detalleCheckout mensajeIdCompra'>Se está generando su orden...</h2>
+                <h2 className='detalleCheckout mensajeprevio mensajeIdCompra'>Se está generando su orden...</h2>
             </div>
         )
     }
