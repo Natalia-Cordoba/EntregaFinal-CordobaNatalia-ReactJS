@@ -1,30 +1,42 @@
-nav {
-    padding: 10px 5px;
-    background-color: black;
+.header {
+    padding-top: 30px;
+    margin: 0 auto;
 }
 
+.tituloCarrito {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+
 h1 {
-    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
     font-weight: bold;
     padding: 5px;
-    color: whitesmoke;
+    color: #fff065;
+    transition: ease 0.5s;
 }
 
-h1:hover{
-    color: rgba(245,27,209,1);
+h1:hover {
+    text-shadow: 0px 0px 10px rgba(245, 27, 209, 1);
 }
 
 .Category a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: x-small;
+    font-size: small;
     color: rgba(245, 245, 245, 0.911);
-    padding: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: ease 0.3s;
 }
 
 .Category a:hover {
-    color:rgba(255,240,101,1);
+    background-color: rgba(85, 8, 88, 1);
 }
 
 div.Category {
@@ -32,15 +44,25 @@ div.Category {
     justify-content: center;
 }
 
-@media (min-width: 750px) {    
-    .NavBar {
-        width: 1200px;
+@media (min-width: 750px) {
+    .header {
+        padding-top: 50px;
+    }
+
+
+    .tituloCarrito {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 40px;
+        margin-right: 40px;
+        padding-bottom: 20px;
     }
 
     h1 {
         font-size: x-large;
     }
-        
+
     .Category a {
         font-size: larger;
         font-weight: bold;
@@ -49,3 +71,8 @@ div.Category {
     }
 }
 
+@media (min-width: 900px) {
+    .header {
+        width: 900px;
+    } 
+}

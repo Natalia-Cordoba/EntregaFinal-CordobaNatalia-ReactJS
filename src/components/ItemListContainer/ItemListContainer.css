@@ -7,6 +7,10 @@ h2 {
     text-align: center;
 }
 
+.listadoProductos {
+    color: whitesmoke;
+}
+
 @media (min-width: 750px) {
     h2 {
         font-size: x-large;
